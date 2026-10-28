@@ -46,12 +46,6 @@ export function Navbar() {
         {/* Desktop Actions */}
         <div className="hidden items-center gap-6 md:flex">
           <Link
-            href="#login"
-            className="text-[16px] font-medium text-white transition-colors hover:text-[#FF6B2C]"
-          >
-            Log in
-          </Link>
-          <Link
             href="#get-the-app"
             className="inline-flex items-center justify-center rounded-[14px] bg-[#FF6B2C] px-6 py-3 text-[16px] font-semibold text-white shadow-sm transition-all hover:bg-[#E85B20] active:scale-[0.98]"
           >
@@ -111,14 +105,6 @@ export function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <hr className="my-2 border-white/10" />
-            <Link
-              href="#login"
-              onClick={() => setMobileMenuOpen(false)}
-              className="text-[16px] font-medium text-white transition-colors hover:text-[#FF6B2C]"
-            >
-              Log in
-            </Link>
             <Link
               href="#get-the-app"
               onClick={() => setMobileMenuOpen(false)}

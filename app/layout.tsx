@@ -14,6 +14,13 @@ export const metadata: Metadata = {
   title: "Center Point — Your money, at the centre.",
   description:
     "Send money to any Nigerian bank in seconds, buy airtime and data, and pay bills — for you and your business, all in one simple app.",
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/icon.png", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-icon.png" }],
+  },
 }
 
 export default function RootLayout({
